@@ -1,0 +1,60 @@
+size of training data is (30432, 61)
+size of testing data is (7609, 61)
+====================== Naive Bayes ======================
+Accuracy is 67.486%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      5103        61
+Actl-Pos      2413        32
+Precision is 0.344.
+Recall is 0.013.
+F1 score is 0.025.
+====================== Least Square Regression ======================
+Accuracy is 67.814%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      5137        27
+Actl-Pos      2422        23
+Precision is 0.460.
+Recall is 0.009.
+F1 score is 0.018.
+Mean Squared Error: 0.22
+Coefficient of determination: -0.01
+====================== Logistic Regression ======================
+Accuracy is 67.841%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      5113        51
+Actl-Pos      2396        49
+Precision is 0.490.
+Recall is 0.020.
+F1 score is 0.039.
+====================== Decision Tree ======================
+Accuracy is 71.731%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      4647       517
+Actl-Pos      1634       811
+Precision is 0.611.
+Recall is 0.332.
+F1 score is 0.430.
+====================== Random Forest ======================
+Accuracy is 75.989%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      4716       448
+Actl-Pos      1379      1066
+Precision is 0.704.
+Recall is 0.436.
+F1 score is 0.539.
+====================== Support Vector Machine ======================
+Accuracy is 68.406%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      5148        16
+Actl-Pos      2388        57
+Precision is 0.781.
+Recall is 0.023.
+F1 score is 0.045.
+====================== Neural Network ======================
+Accuracy is 72.533%.
+          Pred-Neg  Pred-Pos
+Actl-Neg      4856       308
+Actl-Pos      1782       663
+Precision is 0.683.
+Recall is 0.271.
+F1 score is 0.388.
